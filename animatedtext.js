@@ -11,6 +11,8 @@ function animatedText(text_element, n, speed)
             animatedText(text_element, n + 1, speed);
         }, speed);
     }
+
+    console.log('Script is running!'); 
 }
 
 document.addEventListener('DOMContentLoaded', function() 
